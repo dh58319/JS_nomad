@@ -1,7 +1,3 @@
-let a = 5;
-const b = 2;
-const myName = "nico";
+ let sth=null;
 
-console.log(a+b);
-console.log(a*b);
-console.log(a/b);
+ console.log(sth);
