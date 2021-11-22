@@ -8,3 +8,10 @@ const player = {
 };
 
 console.log(player.fat);
+
+//function 2.7
+ 
+function sayHello(){
+    //what ever I write here, it will execute 
+    
+}
