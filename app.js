@@ -15,3 +15,8 @@ function sayHello(){
     //what ever I write here, it will execute 
     
 }
+
+//cosnt age = prompt(message, default) -> pause until user make resoponce
+// how to change type 
+// parseInt() converse string into intager.
+//
