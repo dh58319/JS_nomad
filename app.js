@@ -20,3 +20,5 @@ function sayHello(){
 // how to change type 
 // parseInt() converse string into intager.
 //
+
+//git init
