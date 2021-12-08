@@ -6,10 +6,9 @@ const player = {
     points : 10,
     fat: true,
 };
+ 
 
-console.log(player.fat);
-
-//function 2.7
+//function 2.7 
  
 function sayHello(){
     //what ever I write here, it will execute 
@@ -22,3 +21,8 @@ function sayHello(){
 //
 
 //git init
+
+const title = document.getElementById("title");
+console.dir(title);
+
+title.innerText = "Got you!"; 
