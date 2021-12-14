@@ -24,17 +24,20 @@ function sayHello(){
 
 const title = document.getElementById("title"); 
 console.dir(title);
-
 title.innerText = "Got you!"; 
 */
 
-const title = document.querySelector("div.hello:first-child h1");
+const h1 = document.querySelector("div.hello:first-child h1");
 
-title.innerText = "Hello";
 function handleTitleClick(){
-    console.log("Title was clicked");
+    if(h1.className === "active"){
+        h1.className = "";
+    }
+    else {
+        h1.className = "active";
+    }
 }
-title.addEventListener("click",handleTitleClick);
+h1.addEventListener("click",handleTitleClick);
 
 
 
